@@ -4,8 +4,8 @@
 
 ### Quantization-Aware Training
 - [PACT: Parameterized Clipping Activation for Quantized Neural Networks](https://arxiv.org/abs/1805.06085)
-  - ![equation](http://www.sciweavers.org/tex2img.php?eq=y%20%3D%20%5Cittext%7BPACT%7D%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A0%20%2C%20%26%5Ctext%7B%24x%3C0%24%7D%5C%5C%0Ax%20%2C%20%26%5Ctext%7B%240%20%5Cleq%20x%20%3C%20%5Calpha%24%7D%5C%5C%0A%5Calpha%20%2C%20%26%20%5Ctext%7B%24%5Calpha%20%5Cleq%20x%24%7D%0A%5Cend%7Bcases%7D%0A&bc=White&fc=Black&im=png&fs=12&ff=txfonts&edit=0)
-
+  - Relu-α where α is learnable parameter with L2 regularization
+  
 - [Accurate and Efficient 2-bit Quantized Neural Networks](https://www.sysml.cc/doc/2019/168.pdf)
   - PACT quantization aware training
   - Statistic-Aware Weight Binning
@@ -26,5 +26,13 @@
 
 
 
-
-
+## Quantization Support in Libraries
+- TensorRT
+  - Per channel weight scale
+  - Calibration: minimize KL Divergence
+- Tensorflow lite
+  - Per channel  weight scale
+  - Calibration: min max??
+- TVM
+  - Per channel weight scale
+  - Calibration: minimize MSE
