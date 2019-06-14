@@ -26,8 +26,10 @@
 
 - [Simultaneously Optimizing Weight and Quantizer of Ternary Neural Network using Truncated Gaussian Approximation](http://openaccess.thecvf.com/content_CVPR_2019/papers/He_Simultaneously_Optimizing_Weight_and_Quantizer_of_Ternary_Neural_Network_Using_CVPR_2019_paper.pdf)
 
-### Anealing from Continue to Discrete 
-
+#### Anealing from Continue to Discrete 
+- [Quantization Networks](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Quantization_Networks_CVPR_2019_paper.pdf)
+- [Learning low-precision neural networks without
+Straight-Through Estimator (STE)](https://arxiv.org/pdf/1903.01061.pdf)
 
 ## Non-Uniform Quantization
 - [LQ-Nets: Learned Quantization for Highly Accurate and Compact Deep Neural Networks](https://arxiv.org/abs/1807.10029)
