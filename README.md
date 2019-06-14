@@ -2,6 +2,11 @@
 
 ## Linear Quantization
 
+### Post Training Quantization
+- [Same, Same But Different](https://arxiv.org/abs/1902.01917)
+- [Data-Free Quantization through Weight Equalization and Bias Correction](https://arxiv.org/abs/1906.04721)
+- [Improving Neural Network Quantization without Retraining using Outlier Channel Splitting](https://arxiv.org/abs/1901.09504)
+- [Cell Division: Weight Bit-Width Reduction Technique for Convolutional Neural Network Hardware Accelerators](https://dl.acm.org/citation.cfm?id=3287721)
 ### Quantization-Aware Training
 - [PACT: Parameterized Clipping Activation for Quantized Neural Networks](https://arxiv.org/abs/1805.06085)
   - Relu-α where α is learnable parameter with L2 regularization
@@ -27,6 +32,7 @@
 
 
 ## Quantization Support in Libraries
+### Post Training Quantization
 - TensorRT
   - Per channel weight scale
   - Calibration: minimize KL Divergence
@@ -35,4 +41,4 @@
   - Calibration: min max??
 - TVM
   - Per channel weight scale
-  - Calibration: minimize MSE
+  - [Calibration](https://github.com/dmlc/tvm/issues/2651): minimize MSE
