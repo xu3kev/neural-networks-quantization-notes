@@ -37,7 +37,7 @@ Straight-Through Estimator (STE)](https://arxiv.org/pdf/1903.01061.pdf)
 
 ## Sparsity and Quantization
 - [SeerNet: Predicting Convolutional Neural Network Feature-Map Sparsity Through Low-Bit Quantization](http://openaccess.thecvf.com/content_CVPR_2019/html/Cao_SeerNet_Predicting_Convolutional_Neural_Network_Feature-Map_Sparsity_Through_Low-Bit_Quantization_CVPR_2019_paper.html)
-
+- [Value-aware Quantization for Training and Inference of Neural Networks](https://arxiv.org/abs/1804.07802)
 
 ## Quantization Support in Libraries
 ### Post Training Quantization
