@@ -6,6 +6,7 @@
 - [Same, Same But Different - Recovering Neural Network Quantization Error Through Weight Factorization
 ](https://arxiv.org/abs/1902.01917)
 - [Data-Free Quantization through Weight Equalization and Bias Correction](https://arxiv.org/abs/1906.04721)
+- [Fighting Quantization Bias With Bias](https://arxiv.org/abs/1906.03193)
 - [Improving Neural Network Quantization without Retraining using Outlier Channel Splitting](https://arxiv.org/abs/1901.09504)
 - [Cell Division: Weight Bit-Width Reduction Technique for Convolutional Neural Network Hardware Accelerators](https://dl.acm.org/citation.cfm?id=3287721)
 ### Quantization-Aware Training
