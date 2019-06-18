@@ -52,3 +52,6 @@ Straight-Through Estimator (STE)](https://arxiv.org/pdf/1903.01061.pdf)
 - TVM
   - Per channel weight scale
   - [Calibration](https://github.com/dmlc/tvm/issues/2651): minimize MSE
+  
+## LUT-based
+https://arxiv.org/pdf/1906.04798.pdf
