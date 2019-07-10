@@ -25,7 +25,7 @@
   - clamped activation from calibration statistic
   - channel-wise quantization scale
 - [Trained Uniform Quantization for Accurate and Efficient Neural Network Inference on Fixed-Point Hardware](https://arxiv.org/abs/1903.08066)
-- [Simultaneously Optimizing Weight and Quantizer of Ternary Neural Network using Truncated Gaussian Approximation(http://openaccess.thecvf.com/content_CVPR_2019/papers/He_Simultaneously_Optimizing_Weight_and_Quantizer_of_Ternary_Neural_Network_Using_CVPR_2019_paper.pdf)
+- [Simultaneously Optimizing Weight and Quantizer of Ternary Neural Network using Truncated Gaussian Approximation](http://openaccess.thecvf.com/content_CVPR_2019/papers/He_Simultaneously_Optimizing_Weight_and_Quantizer_of_Ternary_Neural_Network_Using_CVPR_2019_paper.pdf)
 
 #### state of art 
 ##### 4-bits
